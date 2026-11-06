@@ -1,0 +1,35 @@
+[
+  {
+    "args": [
+      "webhook_body_witness.py",
+      "fixtures/demo-key.bin",
+      "fixtures/signature.txt",
+      "fixtures/captured.bin",
+      "fixtures/candidate.bin"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "webhook_body_witness.py",
+      "fixtures/demo-key.bin",
+      "fixtures/signature.txt",
+      "fixtures/candidate.bin",
+      "fixtures/captured.bin"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "webhook_body_witness.py",
+      "--help"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "webhook_body_witness.py"
+    ],
+    "exit": 2
+  }
+]
